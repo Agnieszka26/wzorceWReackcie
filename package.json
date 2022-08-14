@@ -1,12 +1,22 @@
 {
   "name": "wzorce_w_react",
+  "author": "Agniesia",
+  "description": "Aplikacja spelniajaca zalozenia w sekcji wzorce w reakcie",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "homepage": "YOUR_GIT_REPO_URL",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "12.2.5",
@@ -19,6 +29,7 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
+    "prettier": "^2.7.1",
     "typescript": "4.7.4"
   }
 }
