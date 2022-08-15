@@ -1,7 +1,15 @@
 import type { NextPage } from 'next';
+import { ContextProvider } from '../components/Context/ContextPassphrase';
+import PassphraseForm from '../components/PassphraseForm/PassphraseForm';
 
 const Home: NextPage = () => {
-  return <>My very nice app</>;
+  return (
+    <>
+      <ContextProvider>
+        <PassphraseForm />
+      </ContextProvider>
+    </>
+  );
 };
 
 export default Home;
